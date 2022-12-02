@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		57658ED2BEA54FE010138DC7 /* Pods_EP4_1143_GrupoA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA704109A7A355C5A0768A /* Pods_EP4_1143_GrupoA.framework */; };
+		C632C31B2937048E007E7AD4 /* BillMaintainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C632C31A2937048E007E7AD4 /* BillMaintainerViewController.swift */; };
+		C632C32229370A25007E7AD4 /* BillProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C632C32129370A25007E7AD4 /* BillProtocol.swift */; };
+		C632C325293712A7007E7AD4 /* BillMaintainerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C632C324293712A7007E7AD4 /* BillMaintainerExtension.swift */; };
 		C694B6DE2933C4C500BDE150 /* BillFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694B6DD2933C4C500BDE150 /* BillFirebase.swift */; };
 		C694B6E12933C63A00BDE150 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694B6E02933C63A00BDE150 /* Bill.swift */; };
 		C694B6E32933C73100BDE150 /* BillCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694B6E22933C73100BDE150 /* BillCollection.swift */; };
 		C694B6E62933CA6A00BDE150 /* BillBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694B6E52933CA6A00BDE150 /* BillBC.swift */; };
+		C69DD7F629367B6900FA95E2 /* BillsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69DD7F529367B6900FA95E2 /* BillsTableVC.swift */; };
+		C69DD7F829367C3500FA95E2 /* BillTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69DD7F729367C3500FA95E2 /* BillTableCell.swift */; };
+		C6A58350293991E800B6172A /* BillExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A5834F293991E800B6172A /* BillExtension.swift */; };
 		C6BADEFB2932654100A9A353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BADEFA2932654100A9A353 /* AppDelegate.swift */; };
 		C6BADEFD2932654100A9A353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BADEFC2932654100A9A353 /* SceneDelegate.swift */; };
 		C6BADEFF2932654100A9A353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BADEFE2932654100A9A353 /* ViewController.swift */; };
@@ -19,16 +25,24 @@
 		C6BADF042932654200A9A353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BADF032932654200A9A353 /* Assets.xcassets */; };
 		C6BADF072932654200A9A353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BADF052932654200A9A353 /* LaunchScreen.storyboard */; };
 		C6BADF16293271B300A9A353 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6BADF15293271B300A9A353 /* GoogleService-Info.plist */; };
+		C6D7D290293454E40050E50A /* bill_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = C6D7D28F293454E40050E50A /* bill_animation.json */; };
+		C6D7D292293455470050E50A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D7D291293455470050E50A /* LaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EAA704109A7A355C5A0768A /* Pods_EP4_1143_GrupoA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EP4_1143_GrupoA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A7D235E8C85957463B1189 /* Pods-EP4_1143_GrupoA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EP4_1143_GrupoA.debug.xcconfig"; path = "Target Support Files/Pods-EP4_1143_GrupoA/Pods-EP4_1143_GrupoA.debug.xcconfig"; sourceTree = "<group>"; };
 		BF0D00B56853EF211D71F156 /* Pods-EP4_1143_GrupoA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EP4_1143_GrupoA.release.xcconfig"; path = "Target Support Files/Pods-EP4_1143_GrupoA/Pods-EP4_1143_GrupoA.release.xcconfig"; sourceTree = "<group>"; };
+		C632C31A2937048E007E7AD4 /* BillMaintainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillMaintainerViewController.swift; sourceTree = "<group>"; };
+		C632C32129370A25007E7AD4 /* BillProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillProtocol.swift; sourceTree = "<group>"; };
+		C632C324293712A7007E7AD4 /* BillMaintainerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillMaintainerExtension.swift; sourceTree = "<group>"; };
 		C694B6DD2933C4C500BDE150 /* BillFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillFirebase.swift; sourceTree = "<group>"; };
 		C694B6E02933C63A00BDE150 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		C694B6E22933C73100BDE150 /* BillCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCollection.swift; sourceTree = "<group>"; };
 		C694B6E52933CA6A00BDE150 /* BillBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillBC.swift; sourceTree = "<group>"; };
+		C69DD7F529367B6900FA95E2 /* BillsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsTableVC.swift; sourceTree = "<group>"; };
+		C69DD7F729367C3500FA95E2 /* BillTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTableCell.swift; sourceTree = "<group>"; };
+		C6A5834F293991E800B6172A /* BillExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillExtension.swift; sourceTree = "<group>"; };
 		C6BADEF72932654100A9A353 /* EP4_1143_GrupoA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EP4_1143_GrupoA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BADEFA2932654100A9A353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6BADEFC2932654100A9A353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +52,8 @@
 		C6BADF062932654200A9A353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6BADF082932654200A9A353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6BADF15293271B300A9A353 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6D7D28F293454E40050E50A /* bill_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bill_animation.json; sourceTree = "<group>"; };
+		C6D7D291293455470050E50A /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +76,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C6061C78293676DC007BCF86 /* Bill */ = {
+			isa = PBXGroup;
+			children = (
+				C632C323293710D0007E7AD4 /* Extension */,
+				C69DD7F529367B6900FA95E2 /* BillsTableVC.swift */,
+				C69DD7F729367C3500FA95E2 /* BillTableCell.swift */,
+				C632C31A2937048E007E7AD4 /* BillMaintainerViewController.swift */,
+			);
+			path = Bill;
+			sourceTree = "<group>";
+		};
+		C632C31D293709AA007E7AD4 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C694B6E22933C73100BDE150 /* BillCollection.swift */,
+				C694B6E02933C63A00BDE150 /* Bill.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C632C32029370A16007E7AD4 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C6C240F929397C0B00F9FAFC /* Extension */,
+				C632C32129370A25007E7AD4 /* BillProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C632C323293710D0007E7AD4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C632C324293712A7007E7AD4 /* BillMaintainerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		C694B6DF2933C62200BDE150 /* BE */ = {
 			isa = PBXGroup;
 			children = (
-				C694B6E02933C63A00BDE150 /* Bill.swift */,
-				C694B6E22933C73100BDE150 /* BillCollection.swift */,
+				C632C32029370A16007E7AD4 /* Protocol */,
+				C632C31D293709AA007E7AD4 /* Entity */,
 			);
 			path = BE;
 			sourceTree = "<group>";
@@ -98,6 +151,7 @@
 		C6BADEF92932654100A9A353 /* EP4_1143_GrupoA */ = {
 			isa = PBXGroup;
 			children = (
+				C6D7D28F293454E40050E50A /* bill_animation.json */,
 				C694B6E42933CA3E00BDE150 /* BC */,
 				C694B6DF2933C62200BDE150 /* BE */,
 				C6BADF15293271B300A9A353 /* GoogleService-Info.plist */,
@@ -130,7 +184,9 @@
 		C6BADF11293267AA00A9A353 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C6061C78293676DC007BCF86 /* Bill */,
 				C6BADEFE2932654100A9A353 /* ViewController.swift */,
+				C6D7D291293455470050E50A /* LaunchViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +215,14 @@
 				C694B6DD2933C4C500BDE150 /* BillFirebase.swift */,
 			);
 			path = SW;
+			sourceTree = "<group>";
+		};
+		C6C240F929397C0B00F9FAFC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C6A5834F293991E800B6172A /* BillExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		E4CB1CB11EC1FD7FD4771F90 /* Pods */ = {
@@ -230,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D7D290293454E40050E50A /* bill_animation.json in Resources */,
 				C6BADF072932654200A9A353 /* LaunchScreen.storyboard in Resources */,
 				C6BADF16293271B300A9A353 /* GoogleService-Info.plist in Resources */,
 				C6BADF042932654200A9A353 /* Assets.xcassets in Resources */,
@@ -288,11 +353,18 @@
 			files = (
 				C6BADEFF2932654100A9A353 /* ViewController.swift in Sources */,
 				C694B6E62933CA6A00BDE150 /* BillBC.swift in Sources */,
+				C632C32229370A25007E7AD4 /* BillProtocol.swift in Sources */,
 				C694B6E12933C63A00BDE150 /* Bill.swift in Sources */,
+				C6A58350293991E800B6172A /* BillExtension.swift in Sources */,
+				C69DD7F829367C3500FA95E2 /* BillTableCell.swift in Sources */,
+				C632C31B2937048E007E7AD4 /* BillMaintainerViewController.swift in Sources */,
+				C69DD7F629367B6900FA95E2 /* BillsTableVC.swift in Sources */,
 				C694B6DE2933C4C500BDE150 /* BillFirebase.swift in Sources */,
+				C632C325293712A7007E7AD4 /* BillMaintainerExtension.swift in Sources */,
 				C6BADEFB2932654100A9A353 /* AppDelegate.swift in Sources */,
 				C694B6E32933C73100BDE150 /* BillCollection.swift in Sources */,
 				C6BADEFD2932654100A9A353 /* SceneDelegate.swift in Sources */,
+				C6D7D292293455470050E50A /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

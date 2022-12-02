@@ -7,4 +7,6 @@ target 'EP4_1143_GrupoA' do
 
   # Pods for EP4_1143_GrupoA
   pod 'FirebaseFirestore'
+  pod 'lottie-ios'
+  pod 'Floaty', '~> 4.2.0'
 end
